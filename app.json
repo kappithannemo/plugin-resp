@@ -1,0 +1,14 @@
+{
+    "name": "Autoresponder server plugin",
+    "description": "Whatsapp project - Makes it easy and fun to use Whatsapp.",
+    "logo": "https://i.hizliresim.com/6Bbj7i.jpg",
+    "keywords": ["whatsapp", "userbot", "Asena"],
+    "repository": "https://github.com/kappithannemo/plugin-resp",
+    "stack": "container",
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+}
