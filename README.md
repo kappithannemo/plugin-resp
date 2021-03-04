@@ -1,11 +1,13 @@
 # Auto-Responder WA Plugin 
 > A simple bot plugin for whatsapp written in python flask.
+> 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kappithannemo/plugin-resp)
 
 ### Installation (server side)
 ```bash
   # clone this repo
-  git clone https://github.com/CW4RR10R/Auto-Responder-for-WA-Plugin-Python.git
-  cd Auto-Responder-for-WA-Plugin-Python
+  git clone https://github.com/kappithannemo/plugin-resp.git
+  cd plugin-resp
 
   # create virtual environment
   virtualenv -p /usr/bin/python3 venv
@@ -25,3 +27,6 @@
 * Hit save and send /help from another account to the bot
   
 **For further reference check the screenshots attached to this repo**
+
+### Credits
+@W4RRIOR
