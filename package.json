@@ -1,0 +1,31 @@
+{
+  "name": "Autoresponder plugin",
+  "version": "0.15.4",
+  "description": "WhatsApp project - a Whatsapp userbot helping to improve your Whatsapp experience.",
+  "main": "./plugin-resp/main.py",
+  "scripts": {
+    "start": "supervisor -s main.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kappithannemo/plugin-resp.git"
+  },
+  "keywords": [
+    "whatsapp"
+  ],
+  "author": "AsenaDev / Yusuf Usta",
+  "developer": "AsenaDev / @phaticusthiccy",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/kappithannemo/plugin-resp/issues"
+  },
+  "homepage": "https://github.com/kappithannemo/plugin-resp#readme",
+  "dependencies": {
+  "flask",
+  "requests",
+  "googletrans",
+  "wikipedia",
+  "urbandict",
+  "beautifulsoup4"
+  }
+}
