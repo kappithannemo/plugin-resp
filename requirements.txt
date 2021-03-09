@@ -4,3 +4,8 @@ googletrans
 wikipedia
 urbandict
 beautifulsoup4
+gunicorn
+logger
+pyppeteer
+asyncio
+flask-cors
